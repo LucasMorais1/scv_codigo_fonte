@@ -1,0 +1,7 @@
+version: '2'
+services:
+  postgres:
+    extends:
+      file: postgresql.yml
+      service: postgres
+    container_name: scv-postgresql
